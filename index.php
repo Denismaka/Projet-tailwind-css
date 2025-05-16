@@ -13,6 +13,10 @@
             background-image: url("/assets/images/home.webp");
             /* background-image: url("https://images.unsplash.com/photo-1580094333632-438bdc04f79f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
         }
+
+        .contact-bg {
+            background-image: url("assets/images/bg-contact.webp");
+        }
     </style>
 </head>
 
@@ -84,7 +88,6 @@
     <!-- ############## -->
     <!-- Galerie -->
     <!-- ############## -->
-
     <section class="text-center py-8">
         <h2 class="text-4xl text-red-600 uppercase font-black mb-2">
             Galerie d'Inspiration
@@ -161,6 +164,37 @@
                 </div>
                 <div class="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded">600€</div>
             </div>
+        </div>
+    </section>
+
+
+    <!-- ############# -->
+    <!-- Contact -->
+    <!-- ############# -->
+    <section class="px-4 py-12 contact-bg bg-fixed bg-center bg-cover">
+        <div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-lg bg-opacity-25">
+            <h2 class="text-4xl text-red-600 uppercase font-black mb-2 text-center">Contactez nous</h2>
+            <p class="text-lg text-gray-600 text-center mb-12">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+
+            <form action="#" method="POST" class="space-y-6">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Nom</label>
+                    <input type="text" id="name" name="name" class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                    <input type="email" id="email" name="email" class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500">
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                    <textarea id="message" name="message" rows="4" class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="w-full md:w-auto inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">Envoyer</button>
+                </div>
+            </form>
         </div>
     </section>
 
