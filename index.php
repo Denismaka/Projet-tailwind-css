@@ -21,6 +21,11 @@
 
 <body>
 
+    <!-- Bouton de redirection -->
+    <div id="backToTop" class="fixed bottom-5 right-5 h-12 w-12 bg-red-600 rounded flex items-center justify-center cursor-pointer shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-yellow-500 opacity-0 invisible hover-pulse">
+        <box-icon name='up-arrow' type='solid' class="text-white text-xl"></box-icon>
+    </div>
+
     <!-- ############## -->
     <!-- Header -->
     <!-- ############## -->
@@ -292,17 +297,7 @@
         </div>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
+    <script src="assets/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="assets/js/app.js"></script>
 </body>
