@@ -15,3 +15,15 @@ Un petit projet d'entraînement pour maîtriser les fondamentaux de **Tailwind C
 ## 🚀 Installation
 ```bash
 git clone https://github.com/votre-utilisateur/Projet-tailwind-css.git
+
+## 📬 Contact  
+Pour toute question ou collaboration, n'hésitez pas à me contacter :  
+
+- ✉️ **Email** : [makadenis370@gmail.com](mailto:makadenis370@gmail.com)  
+- 📞 **Téléphone** : +243 818 252 385 | +243 997 435 030
+- 🌐 **Réseaux sociaux** :  
+  - 🐦 Twitter : [@MakaDenis3](https://twitter.com/MakaDenis3)  
+  - 🔗 LinkedIn : [Denismaka](https://www.linkedin.com/in/Denismaka)  
+  - 💻 GitHub : [Denismaka](https://github.com/Denismaka)  
+  - 👍 Facebook : [Denismaka](https://www.facebook.com/Denismaka)  
+
