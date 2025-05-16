@@ -81,6 +81,89 @@
         </div>
     </section>
 
+    <!-- ############## -->
+    <!-- Galerie -->
+    <!-- ############## -->
+
+    <section class="text-center py-8">
+        <h2 class="text-4xl text-red-600 uppercase font-black mb-2">
+            Galerie d'Inspiration
+        </h2>
+        <p class="text-lg text-gray-600">
+            Découvrez nos collections uniques et trouvez l'inspiration pour vos projets
+        </p>
+    </section>
+
+    <section class="w-full max-w-[1200px] m-auto p-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Card 1 -->
+            <div class="relative bg-white rounded-lg shadow-md overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all">
+                <img src="assets/images/galerie-01.webp" alt="Image 1" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Titre 1</h2>
+                    <p class="text-gray-700 mb-4">Description de l'image 1.</p>
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Action</button>
+                </div>
+                <div class="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded">100€</div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="relative bg-white rounded-lg shadow-md overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all">
+                <img src="assets/images/galerie-02.webp" alt="Image 2" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Titre 2</h2>
+                    <p class="text-gray-700 mb-4">Description de l'image 2.</p>
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Action</button>
+                </div>
+                <div class="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded">200€</div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="relative bg-white rounded-lg shadow-md overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all">
+                <img src="assets/images/galerie-03.webp" alt="Image 3" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Titre 3</h2>
+                    <p class="text-gray-700 mb-4">Description de l'image 3.</p>
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Action</button>
+                </div>
+                <div class="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded">300€</div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="relative bg-white rounded-lg shadow-md overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all">
+                <img src="assets/images/galerie-04.webp" alt="Image 4" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Titre 4</h2>
+                    <p class="text-gray-700 mb-4">Description de l'image 4.</p>
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Action</button>
+                </div>
+                <div class="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded">400€</div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="relative bg-white rounded-lg shadow-md overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all">
+                <img src="assets/images/galerie-05.webp" alt="Image 5" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Titre 5</h2>
+                    <p class="text-gray-700 mb-4">Description de l'image 5.</p>
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Action</button>
+                </div>
+                <div class="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded">500€</div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="relative bg-white rounded-lg shadow-md overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all">
+                <img src="assets/images/galerie-02.webp" alt="Image 6" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Titre 6</h2>
+                    <p class="text-gray-700 mb-4">Description de l'image 6.</p>
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Action</button>
+                </div>
+                <div class="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded">600€</div>
+            </div>
+        </div>
+    </section>
+
 
 
 
