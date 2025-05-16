@@ -4,14 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="website icon" href="/assets/images/logo.webp" />
+    <link rel="website icon" href="/assets/images/horrizon-logo.webp" />
     <title>Horizon voyage</title>
     <!-- CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        .hero-bg {
+        .home-bg {
             background-image: url("/assets/images/home.webp");
-            /* background-image: url("https://images.unsplash.com/photo-1580094333632-438bdc04f79f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
         }
 
         .contact-bg {
@@ -21,6 +20,7 @@
 </head>
 
 <body>
+
     <!-- ############## -->
     <!-- Header -->
     <!-- ############## -->
@@ -31,7 +31,7 @@
                     <!-- logo + nom du site -->
                     <div class="flex items-center space-x-2">
                         <div class="flex-shrink-0">
-                            <img src="assets/images/logo.webp" alt="Logo Horizon Voyage" class="h-8 w-8 md:h-10 md:w-10 transition-transform hover:scale-110">
+                            <img src="assets/images/horrizon-logo.webp" alt="Logo Horizon Voyage" class="h-8 w-8 md:h-10 md:w-10 transition-transform hover:scale-110">
                         </div>
                         <span class="text-white font-bold text-lg hidden sm:block">Horizon Voyage</span>
                     </div>
@@ -40,19 +40,20 @@
                     <div class="hidden md:block">
                         <div class="ml-10 flex items-center space-x-1">
                             <a href="#" class="text-gray-300 hover:bg-red-600/90 hover:text-white px-4 py-2 rounded-md text-sm font-medium transition-all duration-300 flex items-center group">
-                                <box-icon name='home' class="mr-1 group-hover:animate-bounce"></box-icon>
+                                <box-icon name='home' type='solid' color='white' class="mr-1 group-hover:animate-bounce"></box-icon>
                                 Accueil
                             </a>
+
                             <a href="#" class="text-gray-300 hover:bg-red-600/90 hover:text-white px-4 py-2 rounded-md text-sm font-medium transition-all duration-300 flex items-center group">
-                                <box-icon name='map' class="mr-1 group-hover:animate-pulse"></box-icon>
+                                <box-icon name='map' type='solid' color='white' class="mr-1 group-hover:animate-pulse"></box-icon>
                                 Destinations
                             </a>
                             <a href="#" class="text-gray-300 hover:bg-red-600/90 hover:text-white px-4 py-2 rounded-md text-sm font-medium transition-all duration-300 flex items-center group">
-                                <box-icon name='gift' class="mr-1 group-hover:rotate-12"></box-icon>
+                                <box-icon name='gift' type='solid' color='white' class="mr-1 group-hover:rotate-12"></box-icon>
                                 Offres
                             </a>
                             <a href="#" class="text-gray-300 hover:bg-red-600/90 hover:text-white px-4 py-2 rounded-md text-sm font-medium transition-all duration-300 flex items-center group">
-                                <box-icon name='phone' class="mr-1 group-hover:shake"></box-icon>
+                                <box-icon name='phone' type='solid' color='white' class="mr-1 group-hover:shake"></box-icon>
                                 Contact
                             </a>
                         </div>
@@ -79,7 +80,7 @@
             <!-- Menu mobile  -->
             <div class="md:hidden hidden bg-gray-800/95 backdrop-blur-sm" id="mobile-menu">
                 <div class="px-2 pt-2 pb-4 space-y-1 sm:px-3">
-                    <a href="#" class="text-gray-300 hover:bg-red-600 hover:text-white block px-3 py-3 rounded-md text-base font-medium flex items-center transition-colors">
+                    <a href="#home" class="text-gray-300 hover:bg-red-600 hover:text-white block px-3 py-3 rounded-md text-base font-medium flex items-center transition-colors">
                         <box-icon name='home' class="mr-2"></box-icon>
                         Accueil
                     </a>
@@ -104,17 +105,15 @@
         </nav>
     </header>
 
-
-
     <!-- ############## -->
     <!-- Home -->
     <!-- ############## -->
-    <section class="relative h-screen flex items-center justify-center hero-bg bg-fixed bg-center bg-cover">
+    <section class="relative h-screen flex items-center justify-center home-bg bg-fixed bg-center bg-cover">
         <div class="absolute inset-0 bg-black opacity-50"></div>
         <div class="relative text-center p-6">
             <h1 class="text-4xl md:text-6xl font-bold mb-4 text-white">L'Appel de l'Inconnu Vous Attend</h1>
             <p class="text-lg md:text-2xl mb-8 text-white">Des paysages à couper le souffle, des cultures à rencontrer... Votre histoire commence ici.</p>
-            <button class="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-7 py-3 rounded-full font-semibold hover:shadow-xl transition duration-300">
+            <button class="bg-gradient-to-r from-red-500 via-red-600 to-red-700 text-white px-7 py-3 rounded-full font-semibold hover:bg-gradient-to-l from-red-600 via-red-700 to-red-800 transition duration-300">
                 🌍 Commencer mon aventure
             </button>
         </div>
@@ -134,38 +133,37 @@
     <!-- section  Card -->
     <section class="w-full max-w-[1200px] m-auto p-4">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- carye 1 -->
+            <!-- carte 1 -->
             <h2 class="text-xl font-bold mb-2">Safari Tanzanien</h2>
             <p class="text-gray-700 mb-4">5 jours dans le cratère du Ngorongoro avec guides Maasaï</p>
-            <button class="bg-amber-500 hover:bg-amber-600 text-white px-4 py-2 rounded transition-colors">Voir l'itinéraire</button>
+            <button class="bg-amber-600 hover:bg-amber-700 text-white px-4 py-2 rounded transition-colors duration-300 shadow-md hover:shadow-lg">Voir l'itinéraire</button>
 
             <!-- carte 2 -->
             <h2 class="text-xl font-bold mb-2">Weekend Venitien</h2>
             <p class="text-gray-700 mb-4">Palais du XVIe siècle face au Grand Canal</p>
-            <button class="bg-amber-500 hover:bg-amber-600 text-white px-4 py-2 rounded transition-colors">Découvrir</button>
+            <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition-colors duration-300 shadow-md hover:shadow-lg">Découvrir</button>
 
             <!-- carte 3 -->
             <h2 class="text-xl font-bold mb-2">Trekking Inca</h2>
             <p class="text-gray-700 mb-4">Machu Picchu par le chemin secret des Llactapata</p>
-            <button class="bg-amber-500 hover:bg-amber-600 text-white px-4 py-2 rounded transition-colors">Réserver</button>
+            <button class="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded transition-colors duration-300 shadow-md hover:shadow-lg">Réserver</button>
 
             <!-- carte 4 -->
             <h2 class="text-xl font-bold mb-2">Atelier Sushi à Kyoto</h2>
             <p class="text-gray-700 mb-4">Initiation avec un maître poissonnier de Tsukiji</p>
-            <button class="bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded transition-colors">S'inscrire</button>
+            <button class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded transition-colors duration-300 shadow-md hover:shadow-lg">S'inscrire</button>
 
             <!-- carte 5 -->
             <h2 class="text-xl font-bold mb-2">Nuit Berbère</h2>
             <p class="text-gray-700 mb-4">Dîner sous les étoiles du désert marocain</p>
-            <button class="bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded transition-colors">Programme</button>
+            <button class="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded transition-colors duration-300 shadow-md hover:shadow-lg">Programme</button>
 
             <!-- carte 6 -->
             <h2 class="text-xl font-bold mb-2">Carnaval de Rio</h2>
             <p class="text-gray-700 mb-4">Accès VIP aux répétitions des écoles de samba</p>
-            <button class="bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded transition-colors">VIP Experience</button>
+            <button class="bg-rose-600 hover:bg-rose-700 text-white px-4 py-2 rounded transition-colors duration-300 shadow-md hover:shadow-lg">VIP Experience</button>
         </div>
     </section>
-
 
     <!-- ############# -->
     <!-- Contact -->
@@ -173,7 +171,7 @@
     <section class="px-4 py-12 contact-bg bg-fixed bg-center bg-cover">
         <div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-lg bg-opacity-25">
             <h2 class="text-4xl text-red-600 uppercase font-black mb-2 text-center">Contactez nous</h2>
-            <p class="text-lg text-gray-600 text-center mb-12">
+            <p class="text-lg text-gray-600 text-center mb-12 italic">
                 Chaque grand voyage commence par une conversation. Parlons de votre prochaine aventure...
             </p>
             <!-- Formulaire de contact  -->
@@ -188,7 +186,7 @@
                 </div>
                 <div>
                     <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
-                    <textarea id="message" name="message" rows="4" class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500"></textarea>
+                    <textarea id="message" name="message" rows="4" class="resize-none mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500"></textarea>
                 </div>
                 <div class="text-center">
                     <button type="submit" class="w-full md:w-auto inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">Envoyer</button>
