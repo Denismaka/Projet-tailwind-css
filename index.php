@@ -198,6 +198,51 @@
         </div>
     </section>
 
+    <!-- ############## -->
+    <!-- footer -->
+    <!-- ############## -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Contact  -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contactez-nous</h3>
+                    <p class="text-gray-400">Adresse : 48 Rue mulele, Kinshasa, RDC</p>
+                    <p class="text-gray-400">Téléphone : +243818252385</p>
+                    <p class="text-gray-400">Email : Horizonvoyage@gmail.com</p>
+                </div>
+                <!--  Links -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Liens Utiles</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Accueil</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">À propos</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Services</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Social Media -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Suivez-nous</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="bg-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-gray-400">
+                            <box-icon name='facebook-circle' type='logo'></box-icon>
+                        </a>
+                        <a href="#" class="bg-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-gray-400">
+                            <box-icon name='twitter' type='logo'></box-icon>
+                        </a>
+                        <a href="#" class="bg-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-gray-400">
+                            <box-icon name='instagram-alt' type='logo'></box-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center text-gray-400 mt-8">
+                &copy; 2024 - <a href="#">Denismaka</a> - Tous droits réservés.
+            </div>
+        </div>
+    </footer>
+
 
 
 
