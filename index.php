@@ -290,7 +290,7 @@
                     <span>Design par</span>
                     <a href="https://denismaka.com" target="_blank" rel="noopener" class="inline-flex items-center">
                         <box-icon name='pencil' size="xs" class="mr-1"></box-icon>
-                        <span class="font-medium">DenisMaka</span>
+                        <span class="font-medium">software-center</span>
                     </a>
                 </div>
             </div>
