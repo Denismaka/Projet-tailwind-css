@@ -67,6 +67,21 @@
     </header>
 
 
+    <!-- ############## -->
+    <!-- Home -->
+    <!-- ############## -->
+    <section class="relative h-screen flex items-center justify-center hero-bg bg-fixed bg-center bg-cover">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="relative text-center p-6">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4 text-white">Découvrez le Monde avec Nous</h1>
+            <p class="text-lg md:text-2xl mb-8 text-white">Voyagez vers des destinations de rêve avec des offres incroyables.</p>
+            <button class="bg-red-500 text-white px-6 py-3 rounded-full font-semibold animate-pulse">
+                Réservez Maintenant
+            </button>
+        </div>
+    </section>
+
+
 
 
 
