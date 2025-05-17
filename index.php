@@ -116,10 +116,10 @@
     <section class="relative h-screen flex items-center justify-center home-bg bg-fixed bg-center bg-cover">
         <div class="absolute inset-0 bg-black opacity-50"></div>
         <div class="relative text-center p-6">
-            <h1 class="text-4xl md:text-6xl font-bold mb-4 text-white">L'Appel de l'Inconnu Vous Attend</h1>
+            <h1 class="text-4xl md:text-4xl font-bold mb-4 text-white">L'Appel de l'Inconnu Vous Attend</h1>
             <p class="text-lg md:text-2xl mb-8 text-white">Des paysages à couper le souffle, des cultures à rencontrer... Votre histoire commence ici.</p>
             <button class="bg-gradient-to-r from-red-500 via-red-600 to-red-700 text-white px-7 py-3 rounded-full font-semibold hover:bg-gradient-to-l from-red-600 via-red-700 to-red-800 transition duration-300">
-                🌍 Commencer mon aventure
+                <a href="#"> 🌍 Commencer mon aventure</a>
             </button>
         </div>
     </section>
